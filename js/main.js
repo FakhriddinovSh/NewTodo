@@ -36,7 +36,7 @@ function todo(){
         elWrapper.appendChild(ulEl)
 
         btn.addEventListener("click", function(){
-            
+            todoItem.classList.add("d-none")
         })
     }
    
